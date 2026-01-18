@@ -52,6 +52,7 @@ nav {
 
 #nav-container .logo h2 {
     color: #fff;
+    cursor: pointer;
 }
 
 #nav-container .logo h2 span {
@@ -182,6 +183,45 @@ nav {
     display: grid;
     gap: 16px;
     align-content: center;
+}
+
+
+/* episodes section */
+
+#episodes {
+    background: #1A0B2E;
+}
+
+#episodes .episodes-container {
+    width: 82%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 120px 0;
+}
+
+#episodes .episodes-cards {
+    display: flex;
+    gap: 30px;
+}
+
+#episodes h2, h3, p {
+    color: #fff;
+}
+
+#episodes .episodes-cards .card .card-content {
+    background: #250D44;
+    padding: 24px;
+    border-radius: 0 0 40px 40px;
+}
+
+#episodes .episodes-cards .card .card-content p {
+    margin: 24px 0;
+}
+
+#episodes .episodes-cards .card iframe {
+    border: none;
+    display: block;
+    border-radius: 40px 40px 0 0;
 }
 
 
