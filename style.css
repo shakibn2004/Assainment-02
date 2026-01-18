@@ -23,6 +23,10 @@ body {
 
 }
 
+.btn:hover {
+    outline: 1px solid #fcfcfc;
+}
+
 
 img {
   max-width: 100%; 
@@ -91,6 +95,18 @@ nav {
     height: 350px;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+
+#banner .banner .image .new {
+    padding: 8px 16px;
+    background: #00FF88;
+    border-radius: 50px;
+    font-size: 20px;
+    box-shadow: 0px 0px 8px #00FF88;
+    position: absolute;
+    top: 12px;
+    right: 23px;
 }
 
 #banner .banner h3 {
@@ -182,7 +198,10 @@ nav {
     border-radius: 40px;
     display: grid;
     gap: 16px;
-    align-content: center;
+}
+
+#why-techwave .techwave-container .headphone p {
+    text-align: left;
 }
 
 
@@ -216,6 +235,7 @@ nav {
 
 #episodes .episodes-cards .card .card-content p {
     margin: 24px 0;
+    text-align: left;
 }
 
 #episodes .episodes-cards .card iframe {
@@ -258,6 +278,7 @@ nav {
 
 .meet-container .host-container p {
     margin: 16px 0;
+    text-align: left;
 }
 
 .meet-container .host-container .socials .icons {
