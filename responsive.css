@@ -30,9 +30,13 @@
         align-content: center;
     }
 
-    .meet-container .host-container .host-content, p {
+    .meet-container .host-container p, h2 {
         text-align: center;
-        margin: auto;
+    }
+
+    .meet-container .host-container .socials .icons {
+        width: 30px;
+        height: 30px;
     }
 
     footer .footer-container .social-links {

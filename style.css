@@ -287,8 +287,8 @@ nav {
 
 .meet-container .host-container .socials .icons {
     border: 1px solid #533C72;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     display: grid;
     place-content: center;
     border-radius: 50%;
