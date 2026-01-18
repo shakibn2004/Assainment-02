@@ -1,0 +1,187 @@
+
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+/* comonm css */
+.btn {
+    display: flex;
+    padding: 13px 16px;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    background-image: linear-gradient(45deg, #F7E93F, #FB09B4, #9100F8);
+    align-items: center;
+    gap: 10px;
+
+}
+
+
+img {
+  max-width: 100%; 
+  height: auto;    
+  display: block;  
+}
+
+
+/* header section */
+
+
+/* header nav section */
+nav {
+    background: #1A0B2E;
+    border-bottom: 1px solid #412567;
+}
+
+#nav-container {
+    width: 82%;
+    max-width: 1200PX;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+#nav-container .logo h2 {
+    color: #fff;
+}
+
+#nav-container .logo h2 span {
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(45deg, #F7E93F, #FB09B4, #9100F8);
+}
+
+#nav-container .menu {
+    display: flex;
+    color: #fff;
+    gap: 32px;
+    list-style: none;
+}
+
+
+/* header banner section */
+
+#banner {
+    background: url(./Resource/hero-bg.png) no-repeat;
+    background-size: cover;
+}
+
+#banner .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 101px 0;
+}
+
+#banner .banner .image {
+    background: url(./Resource/hero-circle.png) no-repeat;
+    display: flex;
+    width: 350px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner .banner h3 {
+    color: #fff;
+    font-size: 60px;
+    margin: 40px 0 0 0;
+}
+
+#banner .banner p {
+    color: #fff;
+    margin: 8px 0 24px 0;
+}
+
+#banner .banner .hero-buttons {
+    display: flex;
+    gap: 18px;
+}
+
+#banner .banner .hero-buttons #btn-sub {
+    background: none;
+    color: #00FF88;
+    border: 1px solid #00FF88;
+}
+
+
+/* main section */
+
+/* podcast section */
+#podcast {
+    background: #1A0B2E;
+    padding: 50px 0 120px 0;
+}
+
+#podcast .podcast-content {
+    text-align: center;
+    color: #fff;
+}
+
+#podcast .podcast-content h2 {
+    margin: 0 0 16px 0;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#podcast .podcast-rating {
+    width: 82%;
+    max-width: 1200px;
+    margin: auto;
+    color: #00FF88;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 160px;
+    text-align: center;
+}
+
+#podcast .podcast-rating p {
+    color: #fff;
+    margin-top: 16px;
+}
+
+
+/* why techwave section */
+#why-techwave {
+    background: #230E3D;
+}
+
+#why-techwave h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 48px;
+    font-weight: bold;
+    padding: 120px 0 40px 0;
+}
+
+#why-techwave .techwave-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 82%;
+    max-width: 1200px;
+    margin: auto;
+    gap: 30px;
+    color: #fff;
+    padding-bottom: 120px;
+}
+
+#why-techwave .techwave-container .headphone {
+    background: rgba(53, 17, 101, 0.4);
+    padding: 40px;
+    border-radius: 40px;
+    display: grid;
+    gap: 16px;
+    align-content: center;
+}
+
+
