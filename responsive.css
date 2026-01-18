@@ -1,0 +1,43 @@
+@media screen and (max-width: 576px) {
+    #nav-container .menu, #sub-btn {
+        display: none;
+    }
+
+    #nav-container .menu-icon {
+        display: block;
+    }
+
+    #podcast .podcast-rating {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+
+    #why-techwave .techwave-container {
+        grid-template-columns: 1fr;
+    }
+
+    #why-techwave .techwave-container .headphone {
+        grid-column: 1/1 !important;
+    }
+
+    #episodes .episodes-cards {
+        flex-direction: column;
+    }
+
+    .meet-container .host-container {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .meet-container .host-container .host-content, p {
+        text-align: center;
+        margin: auto;
+    }
+
+    footer .footer-container .social-links {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}

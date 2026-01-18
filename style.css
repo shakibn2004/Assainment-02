@@ -73,6 +73,9 @@ nav {
     list-style: none;
 }
 
+#nav-container .menu-icon { 
+    display: none;
+}
 
 /* header banner section */
 
@@ -118,6 +121,7 @@ nav {
 #banner .banner p {
     color: #fff;
     margin: 8px 0 24px 0;
+    padding: 0 20px;
 }
 
 #banner .banner .hero-buttons {
@@ -178,7 +182,7 @@ nav {
     color: #fff;
     font-size: 48px;
     font-weight: bold;
-    padding: 120px 0 40px 0;
+    padding: 120px 20px 40px 20px;
 }
 
 #why-techwave .techwave-container {
