@@ -23,6 +23,7 @@ body {
 
 }
 
+
 .btn:hover {
     outline: 1px solid #fcfcfc;
 }
@@ -77,6 +78,34 @@ nav {
     display: none;
 }
 
+#nav-container .gr-btn {
+    display: flex;
+    position: relative;
+    padding: 2px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#nav-container .gr-btn #sub-btn {
+    z-index: 111;
+}
+
+
+#nav-container .sub-animation {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background: linear-gradient(rgb(255, 255, 255), rgb(68, 255, 0));
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    animation: sub 10s linear 0ms infinite;
+}
+
+@keyframes sub {
+    0% {transform: rotate(0deg); transform-origin: left center;} 
+    100% {transform: rotate(360deg); transform-origin: left center;}
+}
 /* header banner section */
 
 #banner {
@@ -95,7 +124,30 @@ nav {
 #banner .banner-container .image {
     display: flex;
     justify-content: center;
+    align-items: center;
     position: relative;
+    padding: 2px;
+    border-radius: 50%;
+    z-index: 111;
+
+}
+
+#banner .banner-container .image .animation {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(255, 0, 0), rgb(0, 0, 255), rgb(0, 255, 0));
+    border-radius: 50%;
+    position: absolute;
+    top: auto;
+    left: auto;
+    z-index: -111;
+    animation: shakib 5s linear 0ms infinite;
+}
+
+
+
+@keyframes shakib {
+    0% {transform: rotate(-360deg);}
 }
 
 #banner .banner-container .image img {
@@ -114,6 +166,12 @@ nav {
     position: absolute;
     top: 12px;
     right: 23px;
+    animation: new 3s linear 0ms infinite;
+}
+
+@keyframes new {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.1);}
 }
 
 #banner .banner-container h3 {
@@ -323,12 +381,15 @@ footer .footer-container .social-links {
     gap: 40px;
     margin: auto;
     justify-content: center;
-    margin: 32px 0;
+    margin: 32px 0 8px 0;
+    padding-bottom: 28px;
+    border-bottom: 1px solid rgb(69, 69, 69);
 }
 
 footer .footer-container .social-links .spotify{
     display: flex;
     gap: 8px;
+    
 }
 
 footer .footer-container  h2 span {
